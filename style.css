@@ -1,0 +1,60 @@
+:root{
+    --darkColor: #1f2937;
+    --textColor: #e5e7eb;
+}
+.bold{
+    font-weight: bolder;
+}
+.big{
+    font-size: 48px;
+}
+.italic{
+    font-style: italic;
+}
+
+body{
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+.intro{
+    background-color: var(--darkColor);
+    color: var(--textColor);  
+}
+.flex{
+    display: flex;
+    align-items: center; 
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+a{
+    padding-left: 20px;
+}
+
+
+.text{
+    width: 33%;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.text>p{
+    height: auto;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
