@@ -58,3 +58,29 @@ img{
     width: 400px;
     height: 200px;
 }
+button{
+    background-color: #3882f6;
+    border-radius: 2px;
+    border: none;
+    color: #f9faf8;
+    width: 75px;
+    font-weight: bold;
+}
+
+.pg-2{
+    text-align: center;
+}
+.pg-2>p{
+    font-size: 36px;
+    color: var(--darkColor);
+}
+
+.image-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-section>img{
+    width:100px;
+    height: 100px;
+}
