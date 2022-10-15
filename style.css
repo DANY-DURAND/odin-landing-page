@@ -13,17 +13,19 @@
 }
 
 body{
-    width: fit-content;
+    
     margin: 0 auto;
 
 }
 
 .intro{
     background-color: var(--darkColor);
-    color: var(--textColor);  
+    color: var(--textColor);
+    padding-left: 000px;
 }
 .flex{
     display: flex;
+    justify-content: space-around;
     align-items: center; 
 }
 
@@ -75,12 +77,16 @@ button{
     color: var(--darkColor);
 }
 
-.image-section{
+.image-bloc{
     display: flex;
-    flex-direction: row;
+    justify-content:center;
+    justify-content: space-evenly;
+    padding: auto;
 }
 
-.image-section>img{
+.image-bloc >div> img{
     width:100px;
     height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
 }
