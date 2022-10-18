@@ -135,3 +135,14 @@ button{
     border-radius: 5px;
     padding: 3px 20px;
 }
+
+footer{
+    background-color: var(--darkColor);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer > p{
+    text-align: center;
+    color: var(--textColor);
+}
