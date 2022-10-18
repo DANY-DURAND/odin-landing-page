@@ -92,7 +92,6 @@ button{
 }
 
 .testimonials{
-    flex-wrap: wrap;
     padding:50px 0 50px;
     background-color: var(--textColor);
 }
@@ -102,4 +101,9 @@ button{
     color: var(--darkColor);
     margin: 0 auto;
     width: 60%;
+}
+
+.author{
+    text-align: end;
+    width: 75%;  
 }
