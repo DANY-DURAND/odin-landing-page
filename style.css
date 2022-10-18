@@ -91,6 +91,12 @@ button{
     border-radius: 10px;
 }
 
+.testimonials{
+    flex-wrap: wrap;
+    padding:50px 150px 50px;
+    background-color: var(--textColor);
+}
+
 .testimonial{
     font-size: 36px;
     color: var(--darkColor);
