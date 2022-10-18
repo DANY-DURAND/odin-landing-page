@@ -21,7 +21,7 @@ body{
 .intro{
     background-color: var(--darkColor);
     color: var(--textColor);
-    
+    padding-bottom: 50px;
 }
 .flex{
     display: flex;
